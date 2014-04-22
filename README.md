@@ -1,6 +1,6 @@
- # Social Media wrapper class to manage Twitter and Facebook interactions
+# Social Media wrapper class to manage Twitter and Facebook interactions
  
- ## SETUP
+## SETUP
  
  - copy SocialMedia.h/m into the project
  - add the FacebookSDK to the project from here https://developers.facebook.com/docs/ios/
@@ -26,7 +26,7 @@
  ```
 
  
- ## HOW TO USE
+## HOW TO USE
  
  For Twitter: we need to add sucess/fail notification listeners
  ```objective-c
