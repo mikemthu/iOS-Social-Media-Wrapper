@@ -7,7 +7,7 @@
  
  In the AppDelegate, import SocialMedia.h and add the following:
  
- ```
+
  - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
  {
@@ -16,14 +16,14 @@
  }
  return NO;
  }
- ```
- ```
+
+
  - (void)applicationDidBecomeActive:(UIApplication *)application
  {
  [[SocialMedia sharedInstance] handleDidBecomeActive];
  }
  
- ```
+
  
  ***HOW TO USE***
  
